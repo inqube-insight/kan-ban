@@ -1,0 +1,188 @@
+  * {
+    font-family: "Helvetica Neue",Helvetica,"Inter",Arial,sans-serif;
+  }
+  
+  body {
+    font-size: 12.5px;
+  }
+
+  .h1, .h2, .h3, .h4, h1, h2, h3, h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .nav-tabs > li > a {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .html-widget {
+    margin-bottom: 0;
+  }
+  
+  .bar {
+     height: 100%;
+  }
+  
+  .bar-chart {
+    flex-grow: 1;
+    margin-left: 6px;
+    height: 14px;
+  }
+  
+  .bar-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container-fluid > h2 {
+    background-color: white;
+    position: sticky;
+    z-index: 30;
+    top: 0;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 10px;
+  }
+  
+  .nav-pills > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1em;
+    font-weight: normal;
+    border-top: 0;
+  }
+
+  .nav-pills > li.active > a {
+    font-weight: normal;
+    border-top: 0;
+}
+  
+  .tabbable {
+    padding-top: 0;
+  }
+
+  .tabbable > ul {
+    font-size: 0.85em;
+  }
+  
+  .tabset-pills.level2 > ul {
+    font-size: 0.85em;
+  }
+
+  .tab-content {
+    padding-top: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  .btn {
+    font-size: 10px;
+  }
+
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .scrolling-wrapper > .card {
+    display: inline-block;
+  }
+  
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .scrolling-wrapper-flexbox > .card {
+    flex: 0 0 auto;
+    margin-right: 3px;
+  }
+  
+   .card {
+    width: 190px;
+    border: grey;
+  } 
+  
+  .scrolling-wrapper, .scrolling-wrapper-flexbox {
+    height: 90px;
+    margin-bottom: 5px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-flexbox::-webkit-scrollbar {
+    display: none;
+  }
+
+.apexcharter-spark-box {
+  border-radius: 0.2rem;
+  margin-bottom: 0;
+  box-shadow: none;
+}
+
+.shiny-flow-layout > div {
+  width: 15%;
+}
+
+@media only screen and (max-width: 768px){
+  .shiny-flow-layout > div {
+    width: 220px;
+  }
+}
+
+@media only screen and (max-width: 490px){
+  .shiny-flow-layout > div {
+    width: 100%;
+  }
+}
+
+.bar-cell {
+  display: flex;
+  align-items: left;
+}
+
+.bar-chart {
+  flex-grow: 1;
+  margin-left: 6px;
+  height: 14px;
+}
+
+.bar {
+  height: 100%;
+}
+
+
+.shiny-date-input > .form-control {
+  font-size: 11px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 28px;
+}
+
+#otd_type {
+  float: right;
+}
+
+.jexcel {
+  font-size: 10px;
+}
+
+.jexcel_container {
+    border: none;
+}
+
+.jexcel > thead > tr > td {
+  z-index: auto;
+  white-space: normal;
+}
+
+.jexcel > tbody > tr > td.readonly {
+  color: #2b2b2b;
+}
+

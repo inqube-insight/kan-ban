@@ -1,0 +1,12 @@
+name: Kan-Ban
+title: Kan-Ban
+username: inqube
+account: inqube
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9659722
+bundleId: 7599449
+url: https://inqube.shinyapps.io/Kan-Ban/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
